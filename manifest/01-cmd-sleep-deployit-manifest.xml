@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<udm.DeploymentPackage version="1.0" application="CMD">
+  <application />
+  <orchestrator />
+  <deployables>
+    <cmd.Command name="/CMD">
+      <tags />
+      <commandLine>sleep 120s</commandLine>
+      <order>50</order>
+      <dependencies />
+      <undoOrder>49</undoOrder>
+      <undoDependencies />
+      <runUndoCommandOnUpgrade>true</runUndoCommandOnUpgrade>
+    </cmd.Command>
+  </deployables>
+  <applicationDependencies />
+  <dependencyResolution>LATEST</dependencyResolution>
+  <undeployDependencies>false</undeployDependencies>
+  <templates />
+  <boundTemplates />
+</udm.DeploymentPackage>
