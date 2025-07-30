@@ -38,7 +38,7 @@ jobs:
           packageName:   'cmd-1.0.dar'
           environmentId: 'Environments/envForAction1'
           rollback:      'true'
-          maxTransientRetries: 10
+          maxTransientRetrie: 10
 
       - name: Show Action Outputs
         run: |
