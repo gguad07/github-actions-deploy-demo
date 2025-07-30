@@ -35,7 +35,7 @@ jobs:
           action:        'create_publish_deploy'
           outputPath:    'outputdar'
           versionNumber: '1.0'
-          #packageName:   'appForAction-1.0.dar'
+          packageName:   'cmd-1.0.dar'
           environmentId: 'Environments/envForAction1'
           rollback:      'true'
           maxTransientRetries: 10
