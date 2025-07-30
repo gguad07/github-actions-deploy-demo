@@ -26,7 +26,7 @@ jobs:
 
       - name: Create, Publish, and Deploy Package
         id: deploy
-        uses: digital-ai/github-actions-deploy@v1.0.0
+        uses: digital-ai/github-actions-deploy@v4.0.0
         with:
           serverUrl:     ${{ vars.SERVERURL }}
           username:      ${{ secrets.USERNAME }}
@@ -38,6 +38,7 @@ jobs:
           packageName:   'appForAction-1.0.dar'
           environmentId: 'Environments/envForAction1'
           rollback:      'true'
+          maxTransientRetries: 10
 
       - name: Show Action Outputs
         run: |
